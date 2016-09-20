@@ -99,6 +99,8 @@ final class BasicAttributeProvider extends AttributeProvider {
         checkNotCreate(view, attribute, create);
         file.setLastModifiedTime(checkType(view, attribute, value, FileTime.class).toMillis());
         break;
+      case "permissions":
+        break;
       case "size":
       case "fileKey":
       case "isDirectory":
