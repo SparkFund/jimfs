@@ -29,7 +29,7 @@
   <groupId>com.google.jimfs</groupId>
   <artifactId>jimfs-parent</artifactId>
   <packaging>pom</packaging>
-  <version>2.0-SNAPSHOT</version>
+  <version>1.2-sparkfund1</version>
 
   <modules>
     <module>jimfs</module>
