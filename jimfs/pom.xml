@@ -131,5 +131,29 @@
         </configuration>
       </plugin>
     </plugins>
+    <extensions>
+        <extension>
+            <groupId>org.kuali.maven.wagons</groupId>
+            <artifactId>maven-s3-wagon</artifactId>
+            <version>1.2.1</version>
+        </extension>
+    </extensions>
   </build>
+
+  <distributionManagement>
+      <snapshotRepository>
+          <id>sparkfund</id>
+          <url>s3://sparkfund-maven/snapshots</url>
+      </snapshotRepository>
+      <repository>
+          <id>sparkfund</id>
+          <url>s3://sparkfund-maven/releases</url>
+      </repository>
+  </distributionManagement>
+  <repositories>
+      <repository>
+          <id>sparkfund</id>
+          <url>s3://sparkfund-maven/releases</url>
+      </repository>
+  </repositories>
 </project>
