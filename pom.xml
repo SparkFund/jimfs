@@ -26,10 +26,10 @@
     <version>7</version>
   </parent>
 
-  <groupId>com.google.jimfs</groupId>
+  <groupId>sparkfund</groupId>
   <artifactId>jimfs-parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.2-sparkfund1</version>
+  <version>1.2.0</version>
 
   <modules>
     <module>jimfs</module>
@@ -41,7 +41,7 @@
     Jimfs is an in-memory implementation of Java 7's java.nio.file abstract file system API.
   </description>
 
-  <url>https://github.com/google/jimfs</url>
+  <url>https://github.com/SparkFund/jimfs</url>
 
   <inceptionYear>2013</inceptionYear>
 
@@ -74,15 +74,15 @@
   </developers>
 
   <scm>
-    <url>http://github.com/google/jimfs/</url>
-    <connection>scm:git:git://github.com/google/jimfs.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/google/jimfs.git</developerConnection>
+    <url>http://github.com/SparkFund/jimfs/</url>
+    <connection>scm:git:git://github.com/SparkFund/jimfs.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/SparkFund/jimfs.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>http://github.com/google/jimfs/issues</url>
+    <url>http://github.com/SparkFund/jimfs/issues</url>
   </issueManagement>
 
   <prerequisites>
